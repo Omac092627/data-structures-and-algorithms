@@ -32,11 +32,11 @@ Within the addNumbers function, invoke the callback function as many times as ne
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
-const addValues = (arr, value) => { value.push(arr);
+const addValues = (arr, value) => { arr.push(value);
 
 };
 
-const addNumbers = (num, arr, times) => {
+const addNumbers = (num, arr, times, callback) => {
   addNumbers(`${num}${arr}${times}`);
 };
 
@@ -53,8 +53,8 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const removeOne = (num, arr) => {
-  if(num/3 % 2){
-    arr.pop;
+  if(num%3 === 2){
+    arr.pop();
   }
 };
 
@@ -62,6 +62,7 @@ const removeElements = (arr, callback) => {
   for(let i = 0; i < arr.length; i++){
     callback(arr[i]);
   }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -138,7 +139,6 @@ DO NOT CHANGE any of the below code.
 Run your tests from the console: jest challenges-01.test.js
 
 ------------------------------------------------------------------------------------------------ */
-
 describe('Testing challenge 1', () => {
   test('It should return the message with all uppercase characters', () => {
     expect(speaker('hello 301 students!', greeting)).toStrictEqual('HELLO 301 STUDENTS!');
