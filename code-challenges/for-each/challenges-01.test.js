@@ -83,7 +83,7 @@ Write a function named removeWithAnon that produces the same output as challenge
 
 This function should use forEach again, but rather than taking in a callback as an argument, define an anonymous function as the argument to forEach.
 
-This anonymous function should accept up to three arguments: the element, the index, and the array.
+This anonymous function should accept up to three arguments: the element, the index, and the arrays.
 ------------------------------------------------------------------------------------------------ */
 
 const removeWithAnon = (arr) => {
