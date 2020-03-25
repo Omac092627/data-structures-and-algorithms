@@ -96,7 +96,6 @@ DO NOT CHANGE any of the below code.
 Run your tests from the console: jest challenges-02.test.js
 
 ------------------------------------------------------------------------------------------------ */
-
 describe('Testing challenge 1', () => {
   test('It should append without modifying the oiginal', () => {
     const a = 'This is my story.';
