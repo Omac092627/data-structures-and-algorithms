@@ -13,7 +13,7 @@ const greeting = (word) => {
 };
 
 const speaker = (message, callback) => {
-  return `${callback}${message}`;
+  return callback(message);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -32,12 +32,15 @@ Within the addNumbers function, invoke the callback function as many times as ne
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
-const addValues = (arr, value) => { arr.push(value);
-
+const addValues = (arr, value) => { 
+  arr.push(value);
 };
 
 const addNumbers = (num, arr, times, callback) => {
-  addNumbers(`${num}${arr}${times}`);
+  for(let i = times; i > 0; i--){
+    callback(arr, num);
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -53,14 +56,14 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const removeOne = (num, arr) => {
-  if(num%3 === 2){
+  if (num % 3 === 2) {
     arr.pop();
   }
 };
 
 const removeElements = (arr, callback) => {
   for(let i = 0; i < arr.length; i++){
-    callback(arr[i]);
+    callback(arr[i], arr);
   }
   return arr;
 };
@@ -72,8 +75,10 @@ Write a function named removeWithForEach that produces the same output as challe
 ------------------------------------------------------------------------------------------------ */
 
 const removeWithForEach = (arr, callback) => {
-  for(let i = 0; i < arr.length; i++){
-    callback.forEach(arr[i]);
+  arr.foreach((duh) => {
+    callback(duh, arr);
+  });
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -87,7 +92,12 @@ This anonymous function should accept up to three arguments: the element, the in
 ------------------------------------------------------------------------------------------------ */
 
 const removeWithAnon = (arr) => {
-  // Solution code here...
+  arr.foreach(anonymous);
+  function anonymous(duh, idx, arr) {
+    if(duh % 3 === 2){
+      arr.pop();
+    }
+  }
 };
 
 /* ------------------------------------------------------------------------------------------------
