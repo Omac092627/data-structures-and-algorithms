@@ -13,8 +13,8 @@ For example:
 ------------------------------------------------------------------------------------------------ */
 
 const isNum = (input) => {
-  let int = /\d+/gi;
-  if(input === int){
+  let int = /[0-9]/;
+  if(int){
     return true;
   } else{
     return false;
