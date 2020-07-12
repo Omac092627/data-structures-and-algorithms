@@ -12,4 +12,4 @@
 Write a function called `insertShiftArray` which takes in an array and value to be added. Without utilizing any of the build-in methods available to your language, return an array with the new value added at the middle index.
 
 ## Solution image - Whiteboard
-![ArrayShift](../Assets/ArrayShiftCodeChallenge1.png)
+![ArrayShift](../ArrayShiftChallenge1/Assets/ArrayShiftCodeChallenge1.png)
