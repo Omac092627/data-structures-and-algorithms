@@ -1,0 +1,15 @@
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\obj\Debug\netcoreapp3.1\ArrayShiftChallenge1.csprojAssemblyReference.cache
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\obj\Debug\netcoreapp3.1\ArrayShiftChallenge1.AssemblyInfoInputs.cache
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\obj\Debug\netcoreapp3.1\ArrayShiftChallenge1.AssemblyInfo.cs
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\bin\Debug\netcoreapp3.1\ArrayShiftChallenge1.exe
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\bin\Debug\netcoreapp3.1\ArrayShiftChallenge1.deps.json
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\bin\Debug\netcoreapp3.1\ArrayShiftChallenge1.runtimeconfig.json
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\bin\Debug\netcoreapp3.1\ArrayShiftChallenge1.runtimeconfig.dev.json
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\bin\Debug\netcoreapp3.1\ArrayShiftChallenge1.dll
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\bin\Debug\netcoreapp3.1\ArrayShiftChallenge1.pdb
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\obj\Debug\netcoreapp3.1\ArrayShiftChallenge1.csproj.CoreCompileInputs.cache
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\obj\Debug\netcoreapp3.1\ArrayShiftChallenge1.csproj.CopyComplete
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\obj\Debug\netcoreapp3.1\ArrayShiftChallenge1.dll
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\obj\Debug\netcoreapp3.1\ArrayShiftChallenge1.pdb
+C:\Users\oogun\Source\Repos\data-structures-and-algorithms\401 Code Challenges\ArrayShiftChallenge1\ArrayShiftChallenge1\obj\Debug\netcoreapp3.1\ArrayShiftChallenge1.genruntimeconfig.cache
