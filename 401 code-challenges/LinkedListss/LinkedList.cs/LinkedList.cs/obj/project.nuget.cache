@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ma3xJY6vIYsgtGS1BL0AWDZYH4NeeQ6a91Gq/N7IughD+SFmAKbMyAtCkpH0RjsFdwahcvAYtgqg/h3rqLmTBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oogun\\source\\repos\\Omac092627\\data-structures-and-algorithms\\401 code-challenges\\LinkedListss\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oogun\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\oogun\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
