@@ -1,0 +1,2 @@
+C:\Users\oogun\source\repos\LinkedList.cs\LinkedList.cs\obj\Debug\netcoreapp3.1\LinkedList.cs.AssemblyInfoInputs.cache
+C:\Users\oogun\source\repos\LinkedList.cs\LinkedList.cs\obj\Debug\netcoreapp3.1\LinkedList.cs.AssemblyInfo.cs

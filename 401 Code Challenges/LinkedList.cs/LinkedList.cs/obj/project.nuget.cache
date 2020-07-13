@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "x6auy/d0UU/neAaYLUDlwdUAPNo0cdaS7hvkg0fvr0QowUCkGYh8nGUMQDRP3ID1okmS/KNhoagj5FXgH/LeDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oogun\\source\\repos\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oogun\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\oogun\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
