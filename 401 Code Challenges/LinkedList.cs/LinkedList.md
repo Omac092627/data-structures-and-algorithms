@@ -10,3 +10,10 @@
      - [ ] Summary, Description, Approach & Efficiency, Solution
      - [ ] Link to code
      - [ ] Picture of whiteboard
+
+
+
+![Image 1](Assets/images/WhiteBoardChallenge2(1))
+
+
+![Image 1](Assets/images/WhiteBoardChallenge2(2))
