@@ -84,7 +84,7 @@ namespace LLLibrary
         /// O(n)
         /// </summary>
         /// <param name="value"></param>
-        public void AppendToEnd(int value)
+        public void Append(int value)
         {
             Current = Head;
             Node newNode = new Node(value);
