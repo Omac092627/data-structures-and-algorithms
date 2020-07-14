@@ -13,7 +13,7 @@
 
 
 
-![Image 1](/Assets/images/WhiteBoardChallenge2(1))
+![Image 1](Assets/images/WhiteBoardChallenge2(1).jpeg)
 
 
-![Image 1](/Assets/images/WhiteBoardChallenge2(2))
+![Image 1](Assets/images/WhiteBoardChallenge2(2).jpeg)
