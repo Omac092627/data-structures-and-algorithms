@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\401 Code Challenges",
-    "\\401 Code Challenges\\LinkedList.cs\\LinkedList.cs",
-    "\\401 Code Challenges\\LinkedList.cs\\XUnitTestProject1",
-    "\\Code Challenges"
+    "\\Code Challenges",
+    "\\Data Structures",
+    "\\Data Structures\\LLLibrary",
+    "\\Data Structures\\LLLibrary\\LinkedListTests",
+    "\\Data Structures\\LLLibrary\\LLLibrary"
   ],
+  "SelectedNode": "\\Data Structures\\LLLibrary\\LLLibrary\\LinkedList.cs",
   "PreviewInSolutionExplorer": false
 }
