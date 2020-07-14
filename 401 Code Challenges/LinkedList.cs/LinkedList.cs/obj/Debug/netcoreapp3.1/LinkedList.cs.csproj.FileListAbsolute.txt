@@ -1,6 +1,0 @@
-C:\Users\oogun\source\repos\LinkedList.cs\LinkedList.cs\obj\Debug\netcoreapp3.1\LinkedList.cs.AssemblyInfoInputs.cache
-C:\Users\oogun\source\repos\LinkedList.cs\LinkedList.cs\obj\Debug\netcoreapp3.1\LinkedList.cs.AssemblyInfo.cs
-C:\Users\oogun\Source\Repos\Omac092627\data-structures-and-algorithms\401 Code Challenges\LinkedList.cs\LinkedList.cs\obj\Debug\netcoreapp3.1\LinkedList.cs.csprojAssemblyReference.cache
-C:\Users\oogun\Source\Repos\Omac092627\data-structures-and-algorithms\401 Code Challenges\LinkedList.cs\LinkedList.cs\obj\Debug\netcoreapp3.1\LinkedList.cs.AssemblyInfoInputs.cache
-C:\Users\oogun\Source\Repos\Omac092627\data-structures-and-algorithms\401 Code Challenges\LinkedList.cs\LinkedList.cs\obj\Debug\netcoreapp3.1\LinkedList.cs.AssemblyInfo.cs
-C:\Users\oogun\Source\Repos\Omac092627\data-structures-and-algorithms\401 Code Challenges\LinkedList.cs\LinkedList.cs\obj\Debug\netcoreapp3.1\LinkedList.cs.csproj.CoreCompileInputs.cache
