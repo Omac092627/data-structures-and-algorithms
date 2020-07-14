@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x6auy/d0UU/neAaYLUDlwdUAPNo0cdaS7hvkg0fvr0QowUCkGYh8nGUMQDRP3ID1okmS/KNhoagj5FXgH/LeDg==",
+  "dgSpecHash": "yuCFRfqggmRicc9n/2GDFGbQJrkqiD52+x0YRBgqvhCb5JiqjEPXSimQnzwIqQXwp9FoLhsG431pkHUJhoJ+Ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oogun\\source\\repos\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj",
+  "projectFilePath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\data-structures-and-algorithms\\401 Code Challenges\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oogun\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\oogun\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",

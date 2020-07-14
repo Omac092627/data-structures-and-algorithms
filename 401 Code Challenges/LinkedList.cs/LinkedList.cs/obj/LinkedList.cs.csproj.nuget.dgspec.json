@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oogun\\source\\repos\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj": {}
+    "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\data-structures-and-algorithms\\401 Code Challenges\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oogun\\source\\repos\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj": {
+    "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\data-structures-and-algorithms\\401 Code Challenges\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oogun\\source\\repos\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj",
+        "projectUniqueName": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\data-structures-and-algorithms\\401 Code Challenges\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj",
         "projectName": "LinkedList.cs",
-        "projectPath": "C:\\Users\\oogun\\source\\repos\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj",
+        "projectPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\data-structures-and-algorithms\\401 Code Challenges\\LinkedList.cs\\LinkedList.cs\\LinkedList.cs.csproj",
         "packagesPath": "C:\\Users\\oogun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oogun\\source\\repos\\LinkedList.cs\\LinkedList.cs\\obj\\",
+        "outputPath": "C:\\Users\\oogun\\Source\\Repos\\Omac092627\\data-structures-and-algorithms\\401 Code Challenges\\LinkedList.cs\\LinkedList.cs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
