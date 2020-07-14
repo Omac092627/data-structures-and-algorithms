@@ -43,7 +43,7 @@
 
 #401 Code Challenges
 
-1. ArrayShift Challenge: https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges
+1. ArrayShift Challenge:![Array Shift]( https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges)
 
 
 
@@ -53,5 +53,5 @@
 
 #Data Structures and Algorithms
 
-2. Linked Lists - PDF Efficiency Analysis: https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LinkedList.cs
+2. Linked Lists - PDF Efficiency Analysis: ![Linked List](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LinkedList.cs) 
 
