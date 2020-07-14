@@ -3,10 +3,8 @@
     "",
     "\\Code Challenges",
     "\\Data Structures",
-    "\\Data Structures\\LLLibrary",
-    "\\Data Structures\\LLLibrary\\LinkedListTests",
-    "\\Data Structures\\LLLibrary\\LLLibrary"
+    "\\Data Structures\\LLLibrary"
   ],
-  "SelectedNode": "\\Data Structures\\LLLibrary\\LLLibrary\\LinkedList.cs",
+  "SelectedNode": "\\Data Structures\\LLLibrary\\LLLibrary.sln",
   "PreviewInSolutionExplorer": false
 }
