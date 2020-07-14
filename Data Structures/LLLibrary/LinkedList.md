@@ -9,7 +9,7 @@
  - [ ] README for this challenge is complete
      - [ ] Summary, Description, Approach & Efficiency, Solution
      - [ ] Link to code
-     - [ ] Picture of whiteboard
+     - [ ] Picture of white board
 
 
 

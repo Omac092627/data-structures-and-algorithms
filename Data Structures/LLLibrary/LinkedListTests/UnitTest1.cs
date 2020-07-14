@@ -97,7 +97,7 @@ namespace LinkedListTests
             // Act
             string value = list.ToString();
 
-            string expected = "42 -> 23 -> 16 -> 15 -> 8 -> 4 -> NULL";
+            string expected = "42 -> 23 -> 16 -> 15 -> 8 -> 4 -> Null";
             // Assert
             Assert.Equal(expected, value);
 
