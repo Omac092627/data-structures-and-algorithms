@@ -92,7 +92,7 @@ namespace XUnitTestProject1
 
 
         [Fact]
-        public void CanReturnValuesInLinkedListsAfterUsingAppend()
+        public void CheckValuesAfterAppend()
         {
             LinkedList1 list = new LinkedList1();
             list.Insert(2);
@@ -108,7 +108,7 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void CanAppendIfListIsEmpty()
+        public void IfListEmptyAppend()
         {
             LinkedList1 list = new LinkedList1();
 
@@ -121,7 +121,7 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void CanAddBefore1()
+        public void AddBeforeFirst()
         {
             LinkedList1 list = new LinkedList1();
 
@@ -138,7 +138,7 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void CanAddBefore2()
+        public void AddBeforeSecond()
         {
             LinkedList1 list = new LinkedList1();
 
@@ -155,7 +155,7 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void CanAddBefore3()
+        public void AddBeforeThird()
         {
             LinkedList1 list = new LinkedList1();
 
@@ -172,7 +172,7 @@ namespace XUnitTestProject1
         }
 
         [Fact]
-        public void CanAddBefore4()
+        public void AddBeforeFourth()
         {
             LinkedList1 list = new LinkedList1();
 

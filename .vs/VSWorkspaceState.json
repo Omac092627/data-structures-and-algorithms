@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\401 Code Challenges"
+    "\\401 Code Challenges",
+    "\\401 Code Challenges\\ArrayShiftChallenge1\\ArrayShiftChallenge1",
+    "\\401 Code Challenges\\ArrayShiftChallenge1\\ArrayShiftChallenge1\\Assets",
+    "\\401 Code Challenges\\LinkedList.cs",
+    "\\401 Code Challenges\\LinkedList.cs\\Assets",
+    "\\401 Code Challenges\\LinkedList.cs\\Assets\\images",
+    "\\401 Code Challenges\\LinkedList.cs\\LinkedList.cs",
+    "\\401 Code Challenges\\LinkedList.cs\\XUnitTestProject1"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\401 Code Challenges\\LinkedList.cs\\LinkedList.cs\\LinkListClass.cs",
   "PreviewInSolutionExplorer": false
 }
