@@ -9,7 +9,7 @@ namespace LinkedListTests
         [Fact]
         public void CanInstantiateEmptyLinkedList()
         {
-            LinkedList list = new LinkedList();
+            LinkedList1 list = new LinkedList1();
             Assert.Null(list.Head);
         }
 
@@ -18,7 +18,7 @@ namespace LinkedListTests
         {
             // insert means add to the front
             //Arrange
-            LinkedList list = new LinkedList();
+            LinkedList1 list = new LinkedList1();
             list.Insert(4);
             Assert.Equal(4, list.Head.Value);
         }
@@ -26,7 +26,7 @@ namespace LinkedListTests
         [Fact]
         public void CanInsertMultipleNodesInLinkedList()
         {
-            LinkedList list = new LinkedList();
+            LinkedList1 list = new LinkedList1();
             list.Insert(4);
             list.Insert(8);
             list.Insert(15);
@@ -42,7 +42,7 @@ namespace LinkedListTests
         public void CanFindValueInList()
         {
             // arrange
-            LinkedList list = new LinkedList();
+            LinkedList1 list = new LinkedList1();
 
             list.Insert(4);
             list.Insert(8);
@@ -64,7 +64,7 @@ namespace LinkedListTests
         public void CannotFindValueInLinkedList()
         {
             // arrange
-            LinkedList list = new LinkedList();
+            LinkedList1 list = new LinkedList1();
 
             list.Insert(4);
             list.Insert(8);
@@ -86,7 +86,7 @@ namespace LinkedListTests
         public void CanReturnAllValuesInLinkedList()
         {
             // Arrange
-            LinkedList list = new LinkedList();
+            LinkedList1 list = new LinkedList1();
             list.Insert(4);
             list.Insert(8);
             list.Insert(15);
