@@ -274,5 +274,85 @@ namespace LinkedListTests
 
             Assert.Equal(errorMessage, e.Message);
         }
+
+        [Fact]
+        public void KIsLargerThanTheList()
+        {
+            LinkedList1 list = new LinkedList1();
+
+            list.Insert(2);
+            list.Insert(8);
+            list.Insert(3);
+            list.Insert(1);
+
+            Exception e = Assert.Throws<System.Exception>(() => list.KthFromTheEnd(6));
+            string errorMessage = "That's too many nodes";
+
+            Assert.Equal(errorMessage, e.Message);
+        }
+
+        [Fact]
+        public void EndOfTheList()
+        {
+            LinkedList1 list = new LinkedList1();
+
+            list.Insert(2);
+            list.Insert(8);
+            list.Insert(3);
+            list.Insert(1);
+
+            int outputFromMethod = list.KthFromTheEnd(0);
+
+            int expected = 2;
+
+            Assert.Equal(expected, outputFromMethod);
+        }
+
+        [Fact]
+        public void ANegativeNumber()
+        {
+            LinkedList1 list = new LinkedList1();
+
+            list.Insert(2);
+            list.Insert(8);
+            list.Insert(3);
+            list.Insert(1);
+
+            Exception e = Assert.Throws<System.Exception>(() => list.KthFromTheEnd(-6));
+            string errorMessage = "No Negative numbers.";
+
+            Assert.Equal(errorMessage, e.Message);
+        }
+
+        [Fact]
+        public void ListIsOne()
+        {
+            LinkedList1 list = new LinkedList1();
+
+            list.Insert(2);
+
+            int outputFromMethod = list.KthFromTheEnd(0);
+
+            int expected = 2;
+
+            Assert.Equal(expected, outputFromMethod);
+        }
+
+        [Fact]
+        public void ValueHappyPath()
+        {
+            LinkedList1 list = new LinkedList1();
+
+            list.Insert(2);
+            list.Insert(8);
+            list.Insert(3);
+            list.Insert(1);
+
+            int outputFromMethod = list.KthFromTheEnd(2);
+
+            int expected = 3;
+
+            Assert.Equal(expected, outputFromMethod);
+        }
     }
 }
