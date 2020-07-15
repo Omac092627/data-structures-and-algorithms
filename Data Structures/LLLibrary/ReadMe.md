@@ -12,8 +12,20 @@
      - [x] Picture of white board
 
 
+---
+# Challenge 6
 
 ![Image 1](Assets/images/WhiteBoardChallenge2(1).jpeg)
 
 
 ![Image 1](Assets/images/WhiteBoardChallenge2(2).jpeg)
+
+---
+
+# Challenge 7
+
+![Image 1](Assets/images/Lab7Whiteboard2.jpeg)
+
+
+![Image 1](Assets/images/Lab7Whiteboard.jpeg)
+
