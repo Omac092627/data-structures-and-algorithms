@@ -1,6 +1,6 @@
 #Linked List ReadMe
 
- - [x ] Top-level README “Table of Contents” is updated
+ - [x] Top-level README “Table of Contents” is updated
  - [x] Feature tasks for this challenge are completed
  - [x] Unit tests written and passing
      - [x] “Happy Path” - Expected outcome
