@@ -233,7 +233,34 @@ namespace LLLibrary
                 methodCurrent = methodCurrent.Next;
             }
             return methodCurrent.Value;
+        }
 
+
+        public Node ZipList(LinkedList1 l1, LinkedList1 l2)
+        {
+            LinkedList1 ZipList = new LinkedList1();
+            Node L1_Frontier = l1.Head.Next;
+            Node L2_Frontier = l2.Head.Next;
+            ZipList.Head = l1.Head;
+            ZipList.Head.Next = l2.Head;
+            Node Current = ZipList.Head.Next;
+
+            while(L1_Frontier != null && L2_Frontier != null)
+            {
+                if(L1_Frontier != null)
+                {
+                    Current.Next = L1_Frontier;
+                    Current = Current.Next;
+                    L1_Frontier = L1_Frontier.Next;
+                }
+                if(L2_Frontier != null)
+                {
+                    Current.Next = L1_Frontier;
+                    Current = Current.Next;
+                    L1_Frontier = L1_Frontier.Next;
+                }
+            }
+                return ZipList.Head;
         }
 
     }
