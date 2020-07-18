@@ -10,14 +10,14 @@ namespace XUnitTestProject1
         public void Test1()
         {
             //Arrange
-            Stack stack = new Stack();
+            Stack<string> stack = new Stack<string>();
 
             //Act
             stack.Push("candy cane");
 
             //Assert
-            Assert.Equal("candy cane", stack.Top.Value);
-            Assert.NotNull(stack.Top.Value);
+            Assert.Equal("candy cane", stack.Peek());
+            Assert.NotNull(stack.Peek());
 
         }
 
@@ -27,7 +27,7 @@ namespace XUnitTestProject1
         {
             //Arrange
 
-            Stack stack = new Stack();
+            Stack<string> stack = new Stack<string>();
             string expected = "peanut";
 
             //Act
@@ -44,12 +44,12 @@ namespace XUnitTestProject1
         [Fact]
         public void CanPopNodeOffStack()
         {
-            Stack stack = new Stack();
+            Stack<string> stack = new Stack<string>();
             string expected = "peanut";
 
             stack.Push("candy cane");
             stack.Push("peanut");
-            Node returnFromMethod = stack.Pop();
+            Node<string> returnFromMethod = stack.Pop();
             Assert.Equal(expected, returnFromMethod.Value);
         }
 
@@ -57,7 +57,7 @@ namespace XUnitTestProject1
         [Fact]
         public void CanEmptyStackByPoppin()
         {
-            Stack stack = new Stack();
+            Stack<string> stack = new Stack<string>();
             stack.Push("candy cane");
             stack.Push("peanut");
             stack.Pop();
@@ -71,7 +71,7 @@ namespace XUnitTestProject1
         [Fact]
         public void PeekReturnTopValue()
         {
-            Stack stack = new Stack();
+            Stack<string> stack = new Stack<string>();
 
             stack.Push("candy cane");
             stack.Push("peanut");
@@ -84,7 +84,7 @@ namespace XUnitTestProject1
         [Fact]
         public void InstatiateEmptyStack()
         {
-            Stack stack = new Stack();
+            Stack<string> stack = new Stack<string>();
             Exception e = Assert.Throws<System.Exception>(() => stack.Peek());
             string errorMessage = "Empty Stack";
             Assert.Equal(errorMessage, e.Message);
@@ -93,7 +93,7 @@ namespace XUnitTestProject1
         [Fact]
         public void PeekIfStackEmpty()
         {
-            Stack stack = new Stack();
+            Stack<string> stack = new Stack<string>();
             Exception e = Assert.Throws<System.Exception>(() => stack.Peek());
             string errorMessage = "Empty Stack";
             Assert.Equal(errorMessage, e.Message);
@@ -102,7 +102,7 @@ namespace XUnitTestProject1
         [Fact]
         public void PopEmptyStackError()
         {
-            Stack stack = new Stack();
+            Stack<string> stack = new Stack<string>();
             Exception e = Assert.Throws<System.Exception>(() => stack.Pop());
             string errorMessage = "The stack is empty";
             Assert.Equal(errorMessage, e.Message);

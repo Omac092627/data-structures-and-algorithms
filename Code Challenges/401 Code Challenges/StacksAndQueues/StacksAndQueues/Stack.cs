@@ -5,19 +5,19 @@ using System.Text;
 namespace StacksAndQueues
 {
 
-    public class Stack
+    public class Stack<T>
     {
-        public Node Top { get; set; }
+        private Node<T> Top { get; set; }
 
-        public void Push(string value)
+        public void Push(T value)
         {
-            Node node = new Node(value);
+            Node<T> node = new Node<T>(value);
             node.Next = Top;
             Top = node;
             //check if top is null first
         }
 
-        public string Peek()
+        public T Peek()
         {
             if(isEmpty())
             {
@@ -45,11 +45,11 @@ namespace StacksAndQueues
 
         }
 
-        public Node Pop()
+        public Node<T> Pop()
         {
             if(!isEmpty())
             {
-                Node temp = Top;
+                Node<T> temp = Top;
                 Top = Top.Next;
                 temp.Next = null;
                 return temp;
