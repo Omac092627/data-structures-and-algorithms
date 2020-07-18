@@ -21,7 +21,7 @@ namespace StacksAndQueues
         {
             if(isEmpty())
             {
-                throw new Exception("Empty stack");
+                throw new Exception("Empty Stack");
             }
             else
             {

@@ -64,7 +64,7 @@ namespace XUnitTestProject1
             stack.Pop();
 
             Exception e = Assert.Throws<System.Exception>(() => stack.Peek());
-            string error = "Empty stack";
+            string error = "Empty Stack";
 
             Assert.Equal(error, e.Message);
         }
@@ -77,6 +77,35 @@ namespace XUnitTestProject1
             stack.Push("peanut");
             string returnFromMethod = stack.Peek();
             Assert.Equal("peanut", returnFromMethod);
+        }
+
+
+
+        [Fact]
+        public void InstatiateEmptyStack()
+        {
+            Stack stack = new Stack();
+            Exception e = Assert.Throws<System.Exception>(() => stack.Peek());
+            string errorMessage = "Empty Stack";
+            Assert.Equal(errorMessage, e.Message);
+        }
+
+        [Fact]
+        public void PeekIfStackEmpty()
+        {
+            Stack stack = new Stack();
+            Exception e = Assert.Throws<System.Exception>(() => stack.Peek());
+            string errorMessage = "Empty Stack";
+            Assert.Equal(errorMessage, e.Message);
+        }
+
+        [Fact]
+        public void PopEmptyStackError()
+        {
+            Stack stack = new Stack();
+            Exception e = Assert.Throws<System.Exception>(() => stack.Pop());
+            string errorMessage = "The stack is empty";
+            Assert.Equal(errorMessage, e.Message);
         }
     }
 }
