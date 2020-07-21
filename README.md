@@ -2,7 +2,7 @@
 
 ---
 
-# 301 Code Challenges
+## 301 Code Challenges
 
 1. Array and Strings
 
@@ -41,11 +41,15 @@
 
 
 
-#401 Code Challenges
+##401 Code Challenges
 
 1. Array Shift - [Array Shift]( https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges)
 
 
+2. Stacks and Queues - [Stacks and Queues](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/StacksAndQueues)
+
+
+3. Queue With Stacks - [Queue with Stacks](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Queue_With_Stacks)
 
 
 
@@ -56,4 +60,5 @@
 2. Linked List - [Linked List](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LinkedList.cs) 
 
 
+3. Linked List Library [Linked List Library](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LLLibrary/LLLibrary)
 
