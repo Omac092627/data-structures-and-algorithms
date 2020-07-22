@@ -33,4 +33,4 @@ Finally, I check my unit tests against my methods. Did not pass.
 
 ## Whiteboard
 
-![code challenge 11](Assets/images/CodeChallenge11.jpg)
+![code challenge 12](Assets/images/CodeChallenge7_21.png)
