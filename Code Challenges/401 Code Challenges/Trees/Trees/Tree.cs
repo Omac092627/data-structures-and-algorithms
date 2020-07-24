@@ -6,12 +6,23 @@ namespace Trees
 {
     public class Tree<T>
     {
+        /// <summary>
+        /// Create a property Node that holds the Root.
+        /// </summary>
         public Node<T> Root { get; set; }
+
+        /// <summary>
+        /// Create an empty constructor of the class as to allow other methods to Instantiate it.
+        /// </summary>
         public Tree()
         {
 
         }
-
+        /// <summary>
+        /// A constructor method to set the value to the root Node.
+        /// You set Root = root as to not confuse the property of Root.
+        /// </summary>
+        /// <param name="value"></param>
         public Tree(T value)
         {
             Node<T> root = new Node<T>(value);
@@ -19,6 +30,12 @@ namespace Trees
         }
 
 
+        /// <summary>
+        /// This method arranges the Nodes in order from top to bottom
+        /// It is a recursive method and calls the preorder method below
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
         public List<T> PreOrder(Node<T> root)
         {
             //conduct a preorder traversal
@@ -33,6 +50,12 @@ namespace Trees
 
         }
 
+        /// <summary>
+        /// This method returns the root.Value at the top of the Node List
+        /// It is a recursive method assisting the above method
+        /// </summary>
+        /// <param name="traversal"></param>
+        /// <param name="root"></param>
         private void PreOrder(List<T> traversal, Node<T> root)
         {
             traversal.Add(root.Value);
@@ -48,6 +71,13 @@ namespace Trees
 
         }
 
+
+        /// <summary>
+        /// The inorder method starts at the middle node root
+        /// The beginning method uses recursion InOrder to use the parameters below
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
         public List<T> InOrder(Node<T> root)
         {
             List<T> traversal = new List<T>();
@@ -56,6 +86,12 @@ namespace Trees
             return traversal;
         }
 
+        /// <summary>
+        /// This method is recursive and calls the root.Value in the middle. 
+        /// Inorder methods refer to the midpoint.
+        /// </summary>
+        /// <param name="traversal"></param>
+        /// <param name="root"></param>
         public void InOrder(List<T> traversal, Node<T> root)
         {
             if(root.LeftChild != null)
@@ -71,6 +107,15 @@ namespace Trees
             }
         }
 
+        /// <summary>
+        /// This is a recursive method
+        /// The first method refers to the root parameter
+        /// It instantiates a new list
+        /// PostOrder then calls the recursive method below but has different properties
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+
         public List<T> PostOrder(Node<T> root)
         {
             List<T> traversal = new List<T>();
@@ -79,7 +124,12 @@ namespace Trees
             return traversal;
         }
 
-
+        /// <summary>
+        /// This method post the root value at the end of the node stack
+        /// The base class methods are there to prevent the stack overflow
+        /// </summary>
+        /// <param name="traversal"></param>
+        /// <param name="root"></param>
         public void PostOrder(List<T> traversal, Node<T> root)
         {
             if (root.LeftChild != null)
