@@ -47,7 +47,10 @@ namespace XUnitTestProject1
         public void CanReturnPreOrderTraverse()
         {
             //Arrange
-            Tree<char> tree = new Tree<char>('a');
+            Tree<char> tree = new Tree<char>();
+
+
+            Node<char> root = new Node<char>('a');
 
             Node<char> b = new Node<char>('b');
             Node<char> c = new Node<char>('c');
@@ -61,17 +64,103 @@ namespace XUnitTestProject1
                 'a', 'b', 'd', 'e', 'c', 'f', 'g'
             };
 
+            tree.Root = root;
+
+            root.LeftChild = b;
+            root.RightChild = c;
+
+            b.LeftChild = d;
+            b.RightChild = e;
+
+            c.LeftChild = f;
+            c.RightChild = g;
 
             //Act
 
             //Assert
-            Assert.NotNull(tree.Root);
             List<char> preOrder = tree.PreOrder(tree.Root);
             Assert.Equal(order, preOrder);
 
 
         }
 
+        [Fact]
+        public void CanReturnInOrderTraverse()
+        {
+            //Arrange
+            Tree<char> tree = new Tree<char>();
+
+
+            Node<char> root = new Node<char>('a');
+
+            Node<char> b = new Node<char>('b');
+            Node<char> c = new Node<char>('c');
+            Node<char> d = new Node<char>('d');
+            Node<char> e = new Node<char>('e');
+            Node<char> f = new Node<char>('f');
+            Node<char> g = new Node<char>('g');
+
+            List<char> order = new List<char>()
+            {
+                'd', 'b', 'e', 'a', 'f', 'c', 'g'
+            };
+
+            tree.Root = root;
+
+            root.LeftChild = b;
+            root.RightChild = c;
+
+            b.LeftChild = d;
+            b.RightChild = e;
+
+            c.LeftChild = f;
+            c.RightChild = g;
+
+            //Act
+
+            //Assert
+            List<char> inOrder = tree.InOrder(tree.Root);
+            Assert.Equal(order, inOrder);
+        }
+
+        [Fact]
+        public void CanReturnPostOrderTraverse()
+        {
+            //Arrange
+            Tree<char> tree = new Tree<char>();
+
+
+            Node<char> root = new Node<char>('a');
+
+            Node<char> b = new Node<char>('b');
+            Node<char> c = new Node<char>('c');
+            Node<char> d = new Node<char>('d');
+            Node<char> e = new Node<char>('e');
+            Node<char> f = new Node<char>('f');
+            Node<char> g = new Node<char>('g');
+
+            List<char> order = new List<char>()
+            {
+                'd', 'e', 'b', 'f', 'g', 'c', 'a'
+            };
+
+            tree.Root = root;
+
+            root.LeftChild = b;
+            root.RightChild = c;
+
+            b.LeftChild = d;
+            b.RightChild = e;
+
+            c.LeftChild = f;
+            c.RightChild = g;
+
+            //Act
+
+            //Assert
+            List<char> postOrder = tree.PostOrder(tree.Root);
+            Assert.Equal(order, postOrder);
+        }
 
 
     }

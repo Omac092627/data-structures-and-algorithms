@@ -84,13 +84,13 @@ namespace Trees
         {
             if (root.LeftChild != null)
             {
-                InOrder(traversal, root.LeftChild);
+                PostOrder(traversal, root.LeftChild);
 
             }
 
             if (root.RightChild != null)
             {
-                InOrder(traversal, root.RightChild);
+                PostOrder(traversal, root.RightChild);
             }
             traversal.Add(root.Value);
         }
