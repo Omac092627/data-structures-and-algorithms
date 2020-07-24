@@ -45,23 +45,21 @@
 
 1. Array Shift - [Array Shift]( https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges)
 
+2. Queue With Stacks - [Queue with Stacks](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Queue_With_Stacks)
 
-2. Stacks and Queues - [Stacks and Queues](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/StacksAndQueues)
+3. Fifo Animal Farm - [Animal Shelter](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Fifo_Animal_Farm)
 
+4. Multi-Bracket-Validation [MultiBracket](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/MultiValid)
 
-3. Queue With Stacks - [Queue with Stacks](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Queue_With_Stacks)
-
-4. Fifo Animal Farm - [Animal Shelter](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Fifo_Animal_Farm)
-
-5. Multi-Bracket-Validation [MultiBracket](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/MultiValid)
-
-
+5. Trees [Trees](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Trees)
 --
 
 #Data Structures and Algorithms
 
-2. Linked List - [Linked List](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LinkedList.cs) 
+1. Linked List - [Linked List](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LinkedList.cs) 
 
 
-3. Linked List Library [Linked List Library](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LLLibrary/LLLibrary)
+2. Linked List Library [Linked List Library](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LLLibrary/LLLibrary)
 
+
+3. Stacks and Queues - [Stacks and Queues](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/StacksAndQueues)
