@@ -52,6 +52,9 @@
 4. Multi-Bracket-Validation [MultiBracket](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/MultiValid)
 
 5. Trees [Trees](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Trees)
+
+6. Find Maximum Value in Binary Tree [Binary Tree](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Find_Maximum_Binary_Tree)
+
 --
 
 #Data Structures and Algorithms
