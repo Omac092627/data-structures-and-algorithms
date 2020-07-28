@@ -9,7 +9,7 @@ namespace Trees
         /// <summary>
         /// Create a property Node that holds the Root.
         /// </summary>
-        public Node<T> Root { get; set; }
+        public Node<int> Root { get; set; }
 
         /// <summary>
         /// Create an empty constructor of the class as to allow other methods to Instantiate it.
@@ -23,9 +23,10 @@ namespace Trees
         /// You set Root = root as to not confuse the property of Root.
         /// </summary>
         /// <param name="value"></param>
-        public Tree(T value)
+        public Tree(int value)
         {
-            Node<T> root = new Node<T>(value);
+            Node<int> root = new Node<int>(value);
+
             Root = root;
         }
 
@@ -94,14 +95,14 @@ namespace Trees
         /// <param name="root"></param>
         public void InOrder(List<T> traversal, Node<T> root)
         {
-            if(root.LeftChild != null)
+            if (root.LeftChild != null)
             {
                 InOrder(traversal, root.LeftChild);
 
             }
             traversal.Add(root.Value);
 
-            if(root.RightChild != null)
+            if (root.RightChild != null)
             {
                 InOrder(traversal, root.RightChild);
             }
@@ -146,6 +147,89 @@ namespace Trees
         }
 
 
+
+        /// <summary>
+        /// The main method for adding a number to the BST
+        /// </summary>
+        /// <param name="value">Takes an integer to build the node</param>
+        public void Add(int value)
+        {
+            Root = Add(Root, value);
+        }
+
+
+        /// <summary>
+        /// Helper method for the add method. 
+        /// </summary>
+        /// <param name="root">The current root node</param>
+        /// <param name="value">Takes an integer to build the node</param>
+        /// <returns>Returns the current root node</returns>
+        public Node<int> Add(Node<int> root, int value)
+        {
+            if (root == null)
+            {
+                root = new Node<int>(value);
+                return root;
+            }
+
+            if (value < root.Value)
+            {
+                root.LeftChild = Add(root.LeftChild, value);
+            }
+            else if (value > root.Value)
+            {
+                root.RightChild = Add(root.RightChild, value);
+            }
+            return root;
+        }
+
+
+        /// <summary>
+        /// Define a method named contains that accepts a value, 
+        /// and returns a boolean indicating whether or not 
+        /// the value is in the tree at least once.
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public bool Contains(int value)
+        {
+            if (Root == null)
+            {
+                return false;
+            }
+            else
+            {
+                return Contains(Root, value);
+            }
+        }
+
+        /// <summary>
+        /// The logic for implementing the contains method.
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public bool Contains(Node<int> root, int value)
+        {
+            bool answer = false;
+
+            if (value < root.Value)
+            {
+                if (root.LeftChild != null)
+
+                    answer = Contains(root.LeftChild, value);
+            }
+            else if (value > root.Value)
+            {
+                if (root.RightChild != null)
+                    answer = Contains(root.RightChild, value);
+            }
+            else if (root.Value == value)
+            {
+                answer = true;
+            }
+            return answer;
+        }
 
     }
 
