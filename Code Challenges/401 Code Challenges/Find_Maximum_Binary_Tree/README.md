@@ -16,15 +16,16 @@ You can assume that the values stored in the Binary Tree will be numeric.
 ## Challenge
 <!-- Description of the challenge -->
 
-Can successfully 
-Can successfully 
-Can successfully 
+Can successfully returns the max value in a binary tree 
+If the node is null then return the minimum value
+If the rightchild is greater than result, than the result is equal to the right child
+
 
 
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
-I took the approach of buildingn out the methods first. I wanted to understand the methods I am dealing with.
+I took the approach of building out the Node class first. I wanted to understand the properties I am dealing with.
 
 Next I implemented unit testing to assure the methods were concise. 
 
