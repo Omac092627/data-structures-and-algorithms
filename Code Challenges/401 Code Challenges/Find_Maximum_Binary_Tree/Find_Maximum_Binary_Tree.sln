@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find_Maximum_Binary_Tree", "Find_Maximum_Binary_Tree\Find_Maximum_Binary_Tree.csproj", "{222FC904-4D3E-41A3-AF88-1E33B5C028BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{222FC904-4D3E-41A3-AF88-1E33B5C028BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222FC904-4D3E-41A3-AF88-1E33B5C028BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222FC904-4D3E-41A3-AF88-1E33B5C028BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222FC904-4D3E-41A3-AF88-1E33B5C028BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDAF773E-3E0C-4A2F-B50A-170E0F1DC6EF}
+	EndGlobalSection
+EndGlobal
