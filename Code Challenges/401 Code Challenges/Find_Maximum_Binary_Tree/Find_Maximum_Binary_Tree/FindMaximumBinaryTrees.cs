@@ -1,16 +1,12 @@
 ﻿using System;
-using Find_Maximum_Binary_Tree;
 
 namespace Find_Maximum_Binary_Tree
 {
 
-    public class BinaryTree
+    public class BinaryTree<T>
     {
-        public Node root;
+        public Node<int> root;
 
-    public static void Main(string[] args)
-    {
-    }
         /// <summary>
         ///  Returns the max value in a binary tree 
         ///  If the node is null then return the minimum value
@@ -19,7 +15,7 @@ namespace Find_Maximum_Binary_Tree
         /// </summary>
         /// <param name="node"></param>
         /// <returns></returns>
-        public static int findMax(Node node)
+        public static int findMax(Node<int> node)
         {
             if (node == null)
             {

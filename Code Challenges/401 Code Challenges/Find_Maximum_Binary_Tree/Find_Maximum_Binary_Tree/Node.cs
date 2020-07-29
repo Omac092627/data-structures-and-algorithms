@@ -5,10 +5,10 @@ using System.Text;
 namespace Find_Maximum_Binary_Tree
 {
 
-    public class Node
+    public class Node<T>
     {
         public int data;
-        public Node left, right;
+        public Node<int> left, right;
 
         public Node(int data)
         {
