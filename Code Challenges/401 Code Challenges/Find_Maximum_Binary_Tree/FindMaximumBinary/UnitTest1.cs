@@ -1,25 +1,43 @@
 using System;
 using Xunit;
-using Find_Maximum_Binary_Tree;
+using  Find_Maximum_Binary_Tree;
+
 
 namespace FindMaximumBinary
 {
-    public class UnitTest1
+    public class FindMaximumInTreeTests
     {
         [Fact]
-        public void FindMaxTrees()
+        public void CanReturnTheHighestIntInTheTree()
         {
-            BinaryTree tree = new BinaryTree();
-            tree.root = new Node(2);
-            tree.root.left = new Node(7);
-            tree.root.right = new Node(5);
-            tree.root.left.right = new Node(6);
-            tree.root.left.right.left = new Node(1);
-            tree.root.left.right.right = new Node(11);
-            tree.root.right.right = new Node(9);
-            tree.root.right.right.left = new Node(4);
+            //Arrange
+            BinaryTree<int> tree = new BinaryTree<int>();
 
-            Console.WriteLine("Maximum element is " + BinaryTree.findMax(tree.root));
+            Node<int> root = new Node<int>(1);
+            Node<int> two = new Node<int>(2);
+            Node<int> three = new Node<int>(3);
+            Node<int> four = new Node<int>(4);
+            Node<int> five = new Node<int>(5);
+            Node<int> six = new Node<int>(6);
+            Node<int> seven = new Node<int>(7);
+
+            tree.root = root;
+
+            root.left = two;
+            root.right = three;
+
+            two.left = four;
+            two.right = five;
+
+            three.left = six;
+            three.right = seven;
+
+            int expected = 7;
+            // Act
+            int returnFromMethod = BinaryTree<int>.findMax(root);
+
+            // Assert
+            Assert.Equal(expected, returnFromMethod);
         }
     }
 }
