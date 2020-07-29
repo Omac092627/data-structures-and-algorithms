@@ -66,4 +66,4 @@
 
 3. Stacks and Queues - [Stacks and Queues](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/StacksAndQueues)
 
-4. Trees [Trees](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Trees)
+4. Trees [Trees](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/Trees)
