@@ -2,7 +2,7 @@
 - [*] Feature tasks for this challenge are completed
 - [*] README for this challenge is complete
 - [*] Summary, Description, Approach & Efficiency, Solution
-- [*] Link to code - https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Trees
+- [*] Link to code -https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Trees
 
 
 # Trees
@@ -19,6 +19,7 @@ Define a method for each of the depth first traversals called preOrder, inOrder,
 Can successfully preOrder
 Can successfully inOrder
 Can successfully postOrder
+Can successfully Binary tree
 Can successfully unit test all the above.
 
 
