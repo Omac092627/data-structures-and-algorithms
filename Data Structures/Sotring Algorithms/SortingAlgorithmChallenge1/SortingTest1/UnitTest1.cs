@@ -1,14 +1,8 @@
 using System;
 using Xunit;
+using static SortingAlgorithmChallenge1.Program;
 
 namespace SortingTest1
 {
-    public class UnitTest1
-    {
-        [Fact]
-        public void Test1()
-        {
-
-        }
-    }
+ 
 }
