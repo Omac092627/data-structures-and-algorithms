@@ -28,15 +28,15 @@
 ```
 
 ## Visualization
-![Start](assets/Start.png)
+![Start](Assets/Start.png)
 
-![First](assets/First.png)
+![First](Assets/First.png)
 
-![Second](assets/Second.png)
+![Second](Assets/Second.png)
 
-![Third](assets/Third.png)
+![Third](Assets/Third.png)
 
-![Final](assets/Final.png)
+![Final](Assets/Final.png)
 
 ## CSharp Code
 ``` CSharp

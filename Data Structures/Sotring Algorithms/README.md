@@ -1,5 +1,5 @@
 # Challenge Summary
-Insertion Sorts *blog post**
+Insertion Sorts 
 
 ## Challenge Description
 Write a blog post about how Insertion Sorts Work
