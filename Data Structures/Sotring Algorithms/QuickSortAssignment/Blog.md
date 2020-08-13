@@ -5,19 +5,19 @@
 - O(n log n)
 
 ## How it works
-Begin with method.
-Position Defined.
-Sort Left.
-Sort Right.
-Pivot.
-Set Pivot Value.
-Variable to track.
-Define largest index.
-Define lowest.
-Swap.
-Pivot set to middle. 
-All members on right largest.
-Return low which is midpoint.
+1.Begin with method.
+2.Position Defined.
+3.Sort Left.
+4.Sort Right.
+5.Pivot.
+6.Set Pivot Value.
+7.Variable to track.
+8.Define largest index.
+9.Define lowest.
+10.Swap.
+11.Pivot set to middle. 
+12.All members on right largest.
+13.Return low which is midpoint.
 
 
 ## PseudoCode
@@ -57,9 +57,9 @@ ALGORITHM Swap(arr, i, low)
 
 
 
-![Start](/Assets/QuickSortPt1.jpeg)
+![Start](./Assets/QuickSortPt1.jpeg)
 
-![First](/Assets/QuickSortPt2.jpeg)
+![First](QuickSortAssignment/Assets/QuickSortPt2.jpeg)
 
 ![Second](/Assets/QuickSortPt3.jpeg)
 
