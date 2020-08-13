@@ -1,13 +1,7 @@
-# Challenge Summary
-Insertion Sorts 
 
-## Challenge Description
-Write a blog post about how Insertion Sorts Work
+##401 Data Structures
 
+Will add others...
 
-## Approach & Efficiency
-- Time: O(n<sup>2</sup>)
-- Space: O(1)
+1. Quick Sort - [Quick Sort](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/Sotring%20Algorithms/QuickSortAssignment)
 
-## Solution
-[Blog](Blog.md)

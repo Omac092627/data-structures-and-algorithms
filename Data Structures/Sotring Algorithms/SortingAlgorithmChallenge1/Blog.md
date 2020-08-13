@@ -11,6 +11,21 @@
     - A `for` loop to keep track of the sorted and unsorted side of the collection
     - A `while` loop to sort the current item.
 
+    # Challenge Summary
+Insertion Sorts 
+
+## Challenge Description
+Write a blog post about how Insertion Sorts Work
+
+
+## Approach & Efficiency
+- Time: O(n<sup>2</sup>)
+- Space: O(1)
+
+## Solution
+[Blog](Blog.md)
+
+
 ## PseudoCode
 ```
   InsertionSort(int[] arr)

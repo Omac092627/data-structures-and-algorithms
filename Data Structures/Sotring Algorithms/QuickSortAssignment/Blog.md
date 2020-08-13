@@ -23,6 +23,7 @@
 ## PseudoCode
 
 [8,4,23,42,16,15]
+
 ALGORITHM QuickSort(arr, left, right)
     if left < right
         // Partition the array by setting the position of the pivot value 
@@ -59,10 +60,10 @@ ALGORITHM Swap(arr, i, low)
 
 ![Start](./Assets/QuickSortPt1.jpeg)
 
-![First](QuickSortAssignment/Assets/QuickSortPt2.jpeg)
+![First](./Assets/QuickSortPt2.jpeg)
 
-![Second](/Assets/QuickSortPt3.jpeg)
+![Second](./Assets/QuickSortPt3.jpeg)
 
-![Third](/Assets/QuickSortPt4.jpeg)
+![Third](./Assets/QuickSortPt4.jpeg)
 
-![Final](/Assets/QuickSortPt5.jpeg)
+![Final](./Assets/QuickSortPt5.jpeg)
