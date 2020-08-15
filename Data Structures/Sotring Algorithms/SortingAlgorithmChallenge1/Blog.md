@@ -43,15 +43,15 @@ Write a blog post about how Insertion Sorts Work
 ```
 
 ## Visualization
-![Start](Assets/Start.png)
+![Start](./Assets/Start.png)
 
-![First](Assets/First.png)
+![First](./Assets/First.png)
 
-![Second](Assets/Second.png)
+![Second](./Assets/Second.png)
 
-![Third](Assets/Third.png)
+![Third](./Assets/Third.png)
 
-![Final](Assets/Final.png)
+![Final](./Assets/Final.png)
 
 ## CSharp Code
 ``` CSharp
