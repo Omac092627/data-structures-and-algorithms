@@ -51,8 +51,7 @@
 
 4. Multi-Bracket-Validation [MultiBracket](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/MultiValid)
 
-
-6. Find Maximum Value in Binary Tree [Binary Tree](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Find_Maximum_Binary_Tree)
+5. Find Maximum Value in Binary Tree [Binary Tree](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/Find_Maximum_Binary_Tree)
 
 --
 
@@ -60,13 +59,13 @@
 
 1. Linked List - [Linked List](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LinkedList.cs) 
 
-
 2. Linked List Library [Linked List Library](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/LLLibrary/LLLibrary)
-
 
 3. Stacks and Queues - [Stacks and Queues](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Code%20Challenges/401%20Code%20Challenges/StacksAndQueues)
 
 4. Trees [Trees](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/Trees)
 
-5. SortAlgo [SortAlgorithms](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/SortingAlgorithms)
+5. SortingAlgorithms [SortAlgorithms](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/Sotring%20Algorithms)
+
+6. HashTables [HashTables](https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/HashTables)
 
