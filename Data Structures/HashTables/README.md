@@ -2,7 +2,7 @@
 - [*] Feature tasks for this challenge are completed
 - [*] README for this challenge is complete
 - [*] Summary, Description, Approach & Efficiency, Solution
-- [*] Link to code - 
+- [*] Link to code - https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/HashTables
 
 # Hash Tables
 <!-- Short summary or background information -->
