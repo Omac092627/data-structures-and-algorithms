@@ -18,6 +18,8 @@ Without utilizing any of the built-in library methods available to your language
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+O(n) - find common elements
+O(m * h) - Time complexity of this solution where me is number of nodes in first tree and h is height of second tree.
 
 
 
@@ -37,3 +39,7 @@ Utilize the Single-responsibility principle: any methods you write should be cle
 Write at least three test assertions for each method that you define.
 
 Ensure your tests are passing before you submit your solution.
+
+
+## Resource
+Geeks for Geeks - https://www.geeksforgeeks.org/print-common-nodes-in-two-binary-search-trees/
