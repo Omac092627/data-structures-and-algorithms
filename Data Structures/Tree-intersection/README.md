@@ -2,7 +2,7 @@
 - [*] Feature tasks for this challenge are completed
 - [*] README for this challenge is complete
 - [*] Summary, Description, Approach & Efficiency, Solution
-- [*] Link to code - 
+- [*] Link to code - https://github.com/Omac092627/data-structures-and-algorithms/tree/master/Data%20Structures/Tree-intersection
 
 # Tree Intersection
 <!-- Short summary or background information -->
@@ -27,8 +27,11 @@ Without utilizing any of the built-in library methods available to your language
 
 
 
+## Whiteboard
+![Whiteboard(pdf)](./Assets/treeIntersection.pdf)
 
-#Structure and Testing
+
+## Structure and Testing
 Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge. You will be given feedback and marked down if you attempt to define a large, complex algorithm in one function definition.
 
 Write at least three test assertions for each method that you define.
