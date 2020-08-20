@@ -30,7 +30,7 @@ O(m * h) - Time complexity of this solution where me is number of nodes in first
 
 
 ## Whiteboard
-![Whiteboard(pdf)](./Assets/treeIntersection.pdf)
+[Whiteboard(pdf)](./Assets/treeIntersection.pdf)
 
 
 ## Structure and Testing
