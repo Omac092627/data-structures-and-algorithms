@@ -3,11 +3,11 @@
     "",
     "\\Code Challenges",
     "\\Data Structures",
-    "\\Data Structures\\Sotring Algorithms",
-    "\\Data Structures\\Sotring Algorithms\\QuickSortAssignment",
-    "\\Data Structures\\Sotring Algorithms\\SortingAlgorithmChallenge1",
-    "\\Data Structures\\StacksAndQueues"
+    "\\Data Structures\\Tree-intersection",
+    "\\Data Structures\\Tree-intersection\\Assets",
+    "\\Data Structures\\Trees",
+    "\\Data Structures\\Trees\\Trees"
   ],
-  "SelectedNode": "\\Data Structures\\Sotring Algorithms\\SortingAlgorithmChallenge1\\SortingAlgorithmChallenge1.sln",
+  "SelectedNode": "\\Data Structures\\Trees\\Trees\\Tree.cs",
   "PreviewInSolutionExplorer": false
 }
