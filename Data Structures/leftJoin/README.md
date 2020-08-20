@@ -26,9 +26,11 @@ Avoid utilizing any of the library methods available to your language.
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
+O(1) - Time - One element at a time
+O(1) - One entry point for space
+
+I'm still unfamiliar with this approach. I feel my solution may not be complete however when stepping back, it seems like and O(1) for both time and space.
 
 
 
-## API
-<!-- Description of each method publicly available to your Stack and Queue-->
 
