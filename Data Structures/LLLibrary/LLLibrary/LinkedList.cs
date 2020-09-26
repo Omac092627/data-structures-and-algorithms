@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+using System.Linq;
 namespace LLLibrary
 {
+
+    //just want to see comments for mac users on github//
     public class LinkedList1
     {
         public Node Head { get; set; }
