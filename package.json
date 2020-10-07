@@ -1,22 +1,15 @@
 {
-  "name": "data-structures-and-algorithms",
+  "name": "dsa",
   "version": "1.0.0",
-  "description": "DATA-STRUCTURES-AND-ALGORITHMS",
+  "description": "",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose",
+    "watch": "jest --watchAll --coverage --verbose"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Omac092627/data-structures-and-algorithms.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Omac092627/data-structures-and-algorithms/issues"
-  },
-  "homepage": "https://github.com/Omac092627/data-structures-and-algorithms#readme"
+  "dependencies": {
+    "jest": "^24.5.0"
+  }
 }
