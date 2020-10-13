@@ -1,6 +1,6 @@
 # Reverse an Array
 
-401 Code Challenges Day 2 - ArrayShift
+401 Code Challenges Day 2 - Reverse an Array
 - [*] Top-level README �Table of Contents� is updated
 - [*] Feature tasks for this challenge are completed
 - [*] README for this challenge is complete
