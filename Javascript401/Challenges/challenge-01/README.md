@@ -12,4 +12,4 @@
 Write a function that reverses an Array without utilizing the built-in methods.
 
 ## Solution image - Whiteboard
-![Reverse an Array](challenge-01/assets/challenge-01.png)
+![Reverse an Array](/Challenges/challenge-01/assets/challenge-01.png)
