@@ -17,5 +17,6 @@ takes in an array and the value to be added.
 Return an array with the value placed it in the
 Middle index.
 
+Fin.
 
 ## Solution image - Whiteboard
