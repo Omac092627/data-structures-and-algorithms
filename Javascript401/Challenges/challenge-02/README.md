@@ -2,7 +2,7 @@
 
 ## Author: Lami Beach
 
-401 Code Challenges Day 2 - Array Shift
+401 Code Challenges Day 3 - Array Shift
 - [*] Top-level README �Table of Contents� is updated
 - [*] Feature tasks for this challenge are completed
 - [*] README for this challenge is complete
