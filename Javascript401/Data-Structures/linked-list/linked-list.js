@@ -11,7 +11,7 @@ class LinkedList{
 
     }
 
-    inser(value){
+    insert(value){
         this.current = this.head;
         let node = new Node(value);
         node.next = this.head;
@@ -49,4 +49,51 @@ class LinkedList{
     
     }
 
+    append(value){
+        this.current = this.head;
+        if(this.head === null){
+            this.head = new Node(value);
+        }
+        while(this.current !== null){
+            let node = new Node(value);
+            this.current.next = node;
+            this.current = this.current.next;
+
+        }
+        this.current = this.current.next;
+    }
+
+    insertBefore(value, newValue){
+    this.current = this.head;
+    if(this.current === value){
+        this.insert(newValue);
+    }else{
+        let last = this.current;
+
+        while(this.current !== null){
+            if(this.current.value === value){
+                let node = new Node(newValue);
+                node.next = this.current;
+                last.next = node;
+                break;
+            }
+            last = this.current;
+            this.current = this.current.next;
+        }
+    }
+
+    }
+
+    insertAfter(value, newValue){
+        this.current = this.head;
+
+        while(this.current !== null){
+            if(this.current.value === value){
+                let node = new Node(newValue);
+                node.next = this.current.next;
+                this.current.next = node;
+            }
+            this.current = this.current.next;
+        }
+    }
 }
