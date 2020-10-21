@@ -96,4 +96,33 @@ class LinkedList{
             this.current = this.current.next;
         }
     }
+
+    kthFromEnd(key){
+        this.current = this.head;
+
+        let walker = this.current;
+        let runner = this.current;
+
+        let k = key;
+
+        if(k < 0){
+            throw new console.error("No negative numbers")
+        }
+        while(k > 0){
+            if(runner.next !== null){
+                k--;
+                runner = runner.next;
+            }else{
+                throw new console.error("Can't be same length")
+            }
+
+        }
+        while(runnier.next !== null){
+            walker = walker.next;
+            runner = runner.next;
+        }
+        return walker.value;
+    }
 }
+
+module.exports = LinkedList;
